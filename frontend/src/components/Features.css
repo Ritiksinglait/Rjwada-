@@ -1,0 +1,24 @@
+.features{
+    width: 100%;
+    display: flex;
+    border-top: 0.5px solid grey;
+    border-bottom: 0.5px solid grey;
+}
+
+.feature-list{
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+
+.feature-list>li{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2C8F88;
+    border-radius: 10px;
+}
+.feature-list>li:hover{
+    cursor: pointer;
+}

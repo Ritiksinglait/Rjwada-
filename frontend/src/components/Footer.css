@@ -1,0 +1,125 @@
+.footer-wrapper {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* margin: 10px 0px; */
+  background-color: #2d2d2d;
+}
+.footer-vertical1 {
+  border-left: 1px solid #535353;
+  height: 190px;
+  position: absolute;
+  left: 300px;
+  margin-top: 40px;
+}
+.footer-vertical2 {
+  border-left: 1px solid #535353;
+  height: 190px;
+  position: absolute;
+  left: 600px;
+  margin-top: 40px;
+}
+.footer-vertical3 {
+  border-left: 1px solid #535353;
+  height: 190px;
+  position: absolute;
+  left: 1100px;
+  margin-top: 40px;
+}
+.footer-horizontal {
+  border-bottom: 1px solid #535353;
+  width: 100vw;
+  position: absolute;
+  /* top:-20px; */
+  margin-top: 270px;
+}
+.footer-list-item {
+  color: white;
+  text-decoration: none;
+  line-height: 1rem;
+}
+.footer-contact-wrapper {
+  margin: 10px 0px;
+  margin-left: 100px;
+}
+.footer-connect-wrapper {
+  margin: 10px 0px;
+  margin-left: 160px;
+}
+.footer-help-wrapper {
+  margin: 10px 0px;
+  margin-left: 180px;
+}
+.footer-office-wrapper {
+  margin: 10px 0px;
+  margin-left: 380px;
+}
+
+@media all and (max-width: 1024px) {
+  .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: #2c8f88;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-contact-wrapper,
+  .footer-connect-wrapper,
+  .footer-help-wrapper,
+  .footer-office-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+  }
+  .footer-contact-wrapper {
+    padding-top: 20px;
+  }
+  .footer-office-wrapper {
+    padding-bottom: 20px;
+  }
+  .footer-contact-wrapper > h3,
+  .footer-connect-wrapper > h3,
+  .footer-help-wrapper > h3,
+  .footer-office-wrapper > h3 {
+    padding: 5px;
+    width: 70%;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0) !important;
+  }
+  .footer-vertical1,
+  .footer-vertical2,
+  .footer-vertical3 {
+    width: 100%;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  .footer-list-item {
+    text-align: center;
+  }
+  .footer-help-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-horizontal {
+    display: none;
+  }
+  .list-footer {
+    padding: 0px;
+    line-height: 5px;
+    margin: 3px;
+  }
+}

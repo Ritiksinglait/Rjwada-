@@ -1,0 +1,24 @@
+.bycategory{
+    background-color: white;    
+    width: 100%;
+    padding: 20px;
+}
+.title-shopby{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: black;
+}
+.shopby-products{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}   
+.exclusive-cards{
+    width: 220px;
+    height: 300px;
+    margin: 20px;
+    background-color: rgb(122, 122, 99);
+}

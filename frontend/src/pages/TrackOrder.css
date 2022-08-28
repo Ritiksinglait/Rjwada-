@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+.track-order-wrapper {
+  font-family: "Ubuntu", sans-serif;
+  margin: 10px 50px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+}
+.track-order-filter-section {
+  width: 20%;
+  margin: 10px 10px;
+  border: 1px solid blue;
+  /* height: 200px; */
+}
+.track-order-main-section {
+  width: 80%;
+  margin: 10px 10px;
+  border: 1px solid blue;
+}
+.track-search-wrapper {
+}
+.track-search-container {
+  margin: 20px;
+  border: 1px solid #0d99ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 630px;
+  /* margin: 0px ; */
+}
+.track-search-input {
+  width: 451px;
+  padding: 8px 0px;
+  margin-top: 1px;
+  outline: none;
+  border: 0px;
+  font-size: 14px;
+}
+.track-search-btn {
+  padding: 10px 18px;
+  margin-left: 3px;
+  margin-right: -2px;
+  margin-top: -1px;
+  border: 0px;
+  font-size: 14px;
+  color: white;
+  background-color: #0d99ff;
+}
+.track-order-item-wrapper {
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1rem;
+}
+.order-item-card {
+  border: 1px solid red;
+  margin: 10px 10px;
+  height: 278px;
+}

@@ -1,0 +1,18 @@
+.razorpaycss {
+  padding: 5px 10px 10px 10px !important;
+  background-color: #0d99ff !important;
+  border-radius: 0px !important;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 1024px) {
+  .razorpaycss {
+    display: flex;
+    padding:  10px 10px !important;
+    font-size: 0.6rem;
+    justify-content: center;
+    align-items: center;
+  }
+}

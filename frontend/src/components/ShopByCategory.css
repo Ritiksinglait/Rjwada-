@@ -1,0 +1,49 @@
+:root{
+    --brand-color: #0D99FF;
+    --second-color: #D7F4F0;
+    --third-color: #2C8F88;
+}
+.exclusive{
+    background-color: white;    
+    width: 100%;
+    padding: 20px;
+}
+.title-exclusive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: black;
+}
+.shopby-exclusive{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.category-cards{
+    width: 220px;
+    height: 300px;
+    border-radius: 6px 6px 0px 0px;
+    overflow: hidden;
+    word-wrap: break-word;
+    margin: 20px;
+    background-color: var(--third-color);
+    cursor: pointer;
+}
+.product-title>h1{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    flex: 1;
+}
+.product-title{
+    text-align: center;
+    padding: 5px;
+}
+.product-wrapper{
+    flex: 2;
+}
+.product-wrapper>img{
+    width: 100%;
+}
