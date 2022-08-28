@@ -51,7 +51,7 @@ const ParticularCategory = ({ addToCart }) => {
 
   //changes 
   
-  const [items,setItems] =useState(Menu);
+
 
 
 
